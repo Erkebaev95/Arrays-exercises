@@ -7,7 +7,7 @@ public class Test4 {
         int[][] a = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                a[i][j] = n*i + j;
+                a[i][j] = n * i + j;
             }
         }
 
@@ -23,7 +23,7 @@ public class Test4 {
 
         // часть 3 - транспонирование матрицы
         for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {
                 int temp = a[i][j];
                 a[i][j] = a[j][i];
                 a[j][i] = temp;
